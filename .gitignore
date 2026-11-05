@@ -1,0 +1,5 @@
+.DS_Store
+.claude/
+__pycache__/
+# raw 4K Higgsfield originals (web versions live in site/assets/img/hf)
+source/hf/*.png
